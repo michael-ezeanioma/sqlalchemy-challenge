@@ -4,79 +4,17 @@ This project involves analyzing climate data for Honolulu, Hawaii, using Python 
 
 # Project Components
 
-__1. Climate Data Analysis__:
+__1. Climate Data Analysis__: Analyzed climate data involved connecting to an SQLite database using SQLAlchemy, reflecting tables into ORM classes, and retrieving key climate metrics. Precipitation and station analysis included extracting the last 12 months of data, calculating temperature statistics, and visualizing trends using Pandas and Matplotlib.
 
-Database Connection
-
-Connected to an SQLite database using SQLAlchemy.
-
-Reflected tables into ORM classes.
-
-Established a session to interact with the database.
-
-Precipitation Analysis
-
-Identified the most recent date in the dataset.
-
-Retrieved the last 12 months of precipitation data.
-
-Stored the results in a Pandas DataFrame and sorted by date.
-
-Plotted precipitation data.
-
-Generated summary statistics of the precipitation data.
-
-Station Analysis
-
-Queried the total number of stations.
-
-Identified the most active station based on observation count.
-
-Retrieved the minimum, maximum, and average temperature for the most active station.
-
-Queried the last 12 months of temperature observations for the most active station.
-
-Plotted the temperature observations as a histogram.
-
-__2. Flask API Development__:
-
-API Endpoints
-
-Route
-
-Description
-
-/
-
-Lists all available routes.
-
-/api/v1.0/precipitation
-
-Returns last 12 months of precipitation data as JSON.
-
-/api/v1.0/stations
-
-Returns a JSON list of all stations.
-
-/api/v1.0/tobs
-
-Returns temperature observations for the most active station for the past year as JSON.
-
-/api/v1.0/<start>
-
-Returns min, max, and avg temperature from the given start date onward.
-
-/api/v1.0/<start>/<end>
-
-Returns min, max, and avg temperature between specified start and end dates.
+__2. Flask API Development__: Developed to provide access to climate data through multiple endpoints, including a homepage listing all available routes. Routes were implemented to return the last 12 months of precipitation data, a list of all stations, and temperature observations for the most active station. Additionally, dynamic endpoints were created to allow users to query temperature statistics (minimum, maximum, and average) for a specific start date or a defined date range, delivering all data in JSON format.
 
 # Files
 
-climate_starter.ipynb: Jupyter Notebook containing climate data analysis and visualizations.
+__climate_starter.ipynb__: Jupyter Notebook containing climate data analysis and visualizations.
 
-hawaii.sqlite: SQLite database storing climate data.
+__hawaii.sqlite__: SQLite database storing climate data.
 
-app.py: Flask application to serve climate data via API routes.
+__app.py__: Flask application to serve climate data via API routes.
 
 # Key Features
 
