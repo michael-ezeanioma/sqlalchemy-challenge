@@ -1,11 +1,10 @@
-# sqlalchemy-challenge
-Overview
+# Overview
 
 This project involves analyzing climate data for Honolulu, Hawaii, using Python and SQLAlchemy. The project consists of climate data exploration, precipitation and station analysis, and the development of a Flask API to serve climate-related data.
 
-Project Components
+# Project Components
 
-1. Climate Data Analysis
+__1. Climate Data Analysis__:
 
 Database Connection
 
@@ -39,7 +38,7 @@ Queried the last 12 months of temperature observations for the most active stati
 
 Plotted the temperature observations as a histogram.
 
-2. Flask API Development
+__2. Flask API Development__:
 
 API Endpoints
 
@@ -71,7 +70,7 @@ Returns min, max, and avg temperature from the given start date onward.
 
 Returns min, max, and avg temperature between specified start and end dates.
 
-Files
+# Files
 
 climate_starter.ipynb: Jupyter Notebook containing climate data analysis and visualizations.
 
@@ -79,7 +78,7 @@ hawaii.sqlite: SQLite database storing climate data.
 
 app.py: Flask application to serve climate data via API routes.
 
-Key Features
+# Key Features
 
 Climate Data Analysis
 
@@ -97,7 +96,7 @@ Used Flask jsonify() to return data in JSON format.
 
 Implemented dynamic routes for querying temperature statistics based on user-provided date ranges.
 
-Dependencies
+# Dependencies
 
 Database Connection: SQLAlchemy for database integration.
 
@@ -107,7 +106,7 @@ Flask API: Flask to serve climate data via API.
 
 SQLite: Relational database for storing climate records.
 
-Technologies Used
+# Technologies Used
 
 Python: Primary programming language.
 
@@ -121,7 +120,7 @@ Matplotlib: Data visualization.
 
 Flask: API development framework.
 
-How to Use
+ # How to Use
 
 Clone this repository to your local machine.
 
@@ -133,6 +132,8 @@ Start the Flask API with python app.py.
 
 Access API endpoints through a web browser or Postman.
 
-Conclusion
+# Conclusion
 
-This project demonstrates climate data analysis using SQLAlchemy, Pandas, and Matplotlib, along with developing a RESTful API using Flask to serve climate-related data from an SQLite database.Mod 10
+This project demonstrates climate data analysis using SQLAlchemy, Pandas, and Matplotlib, along with developing a RESTful API using Flask to serve climate-related data from an SQLite database.
+
+<!--Mod 10-->
