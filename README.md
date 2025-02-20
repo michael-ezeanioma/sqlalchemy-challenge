@@ -18,13 +18,13 @@ __app.py__: Flask application to serve climate data via API routes.
 
 # Key Features
 
-Climate Data Analysis
+- Climate Data Analysis
 
-Used SQLAlchemy to connect and reflect database tables.
+- Used SQLAlchemy to connect and reflect database tables.
 
-Performed precipitation and station analysis using SQL queries.
+- Performed precipitation and station analysis using SQL queries.
 
-Visualized results using Matplotlib.
+- Visualized results using Matplotlib.
 
 Flask API
 
@@ -36,39 +36,39 @@ Implemented dynamic routes for querying temperature statistics based on user-pro
 
 # Dependencies
 
-Database Connection: SQLAlchemy for database integration.
+__Database Connection__: SQLAlchemy for database integration.
 
-Data Analysis: Pandas for data manipulation and Matplotlib for visualization.
+__Data Analysis__: Pandas for data manipulation and Matplotlib for visualization.
 
-Flask API: Flask to serve climate data via API.
+__Flask API__: Flask to serve climate data via API.
 
-SQLite: Relational database for storing climate records.
+__SQLite__: Relational database for storing climate records.
 
 # Technologies Used
 
-Python: Primary programming language.
+__Python__: Primary programming language.
 
-SQLAlchemy: Database connection and ORM.
+__SQLAlchemy:__ Database connection and ORM.
 
-SQLite: Relational database for climate data storage.
+__SQLite__: Relational database for climate data storage.
 
-Pandas: Data analysis and manipulation.
+__Pandas__: Data analysis and manipulation.
 
-Matplotlib: Data visualization.
+__Matplotlib__: Data visualization.
 
-Flask: API development framework.
+__Flask__: API development framework.
 
  # How to Use
 
-Clone this repository to your local machine.
+1. Clone this repository to your local machine.
 
-Install dependencies using pip install -r requirements.txt.
+2. Install dependencies using pip install -r requirements.txt.
 
-Open climate_starter.ipynb and run the analysis.
+3. Open climate_starter.ipynb and run the analysis.
 
-Start the Flask API with python app.py.
+4. Start the Flask API with python app.py.
 
-Access API endpoints through a web browser or Postman.
+5. Access API endpoints through a web browser or Postman.
 
 # Conclusion
 
