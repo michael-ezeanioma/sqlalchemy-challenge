@@ -26,13 +26,11 @@ __app.py__: Flask application to serve climate data via API routes.
 
 - Visualized results using Matplotlib.
 
-Flask API
+- Created endpoints to serve precipitation, station, and temperature data.
 
-Created endpoints to serve precipitation, station, and temperature data.
+- Used Flask jsonify() to return data in JSON format.
 
-Used Flask jsonify() to return data in JSON format.
-
-Implemented dynamic routes for querying temperature statistics based on user-provided date ranges.
+- Implemented dynamic routes for querying temperature statistics based on user-provided date ranges.
 
 # Dependencies
 
@@ -70,8 +68,5 @@ __Flask__: API development framework.
 
 5. Access API endpoints through a web browser or Postman.
 
-# Conclusion
-
-This project demonstrates climate data analysis using SQLAlchemy, Pandas, and Matplotlib, along with developing a RESTful API using Flask to serve climate-related data from an SQLite database.
 
 <!--Mod 10-->
